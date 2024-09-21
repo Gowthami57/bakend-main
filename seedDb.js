@@ -118,6 +118,23 @@ async function seedDatabase() {
         image: "images/handover.svg",
       },
     ],
+    ourClients:[
+      {
+      name:"John & Sarah Doe",
+      image:"/images/prasadresidence.svg",
+      feedback:'“Plan a Home made our dream house a reality!The team was professional,attentive, and delivered beyond our expectations.”'
+      },
+      {
+        name:"Emily & Michael Smith",
+        image:"/images/prasadresidence.svg",
+        feedback:'“Working with Plan a Home was a seamless experience. They understood our vision perfectly and transformed it into a stunning reality. Highly recommend!”'
+        },
+        {
+          name:"David & Laura Johnson",
+          image:"/images/prasadresidence.svg",
+          feedback:'“The team at Plan a Home exceeded our expectations in every way. Their attention to detail and commitment to quality were evident from start to finish.”'
+          }
+    ]
   };
 
   try {
